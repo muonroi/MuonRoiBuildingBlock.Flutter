@@ -1,4 +1,4 @@
-name: { { project_name } }
+name: {{project_name}}
 description: "{{project_description}}"
 
 publish_to: "none"
