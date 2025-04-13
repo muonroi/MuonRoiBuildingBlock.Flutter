@@ -1,0 +1,12 @@
+import '../entities/user.dart.mustache';
+import '../repositories/auth_repository.dart.mustache';
+
+class LoginUseCase {
+  final AuthRepository repository;
+
+  LoginUseCase(this.repository);
+
+  Future<User> execute(String username, String password) {
+    return repository.login(username, password);
+  }
+}
