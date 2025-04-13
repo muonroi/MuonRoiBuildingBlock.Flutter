@@ -1,6 +1,5 @@
-name: muonroi_buildingblock
-# description: A new Flutter project created with base MuonroiBuildingBlock.Flutter.
-description: "A new Flutter project."
+name: { { project_name } }
+description: "{{project_description}}"
 
 publish_to: "none"
 

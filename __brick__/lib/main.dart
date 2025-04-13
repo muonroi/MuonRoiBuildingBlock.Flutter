@@ -16,17 +16,12 @@ class {{app_name}} extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Remind Every Day',
+      title: {{app_title}},
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Stack(
-        children: [
-          HomeScreen(),
-          ErrorDialogWidget(),
-        ],
-      ),
+      home: const Stack(children: [HomeScreen(), ErrorDialogWidget()]),
     );
   }
 }

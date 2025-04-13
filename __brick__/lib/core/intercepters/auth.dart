@@ -105,8 +105,8 @@ class AuthInterceptor extends Interceptor {
       errorDialogService.show([
         {
           'errorCode': 'Server Error',
-          'errorMessage': 'Internal Server Error. Please try again later.'
-        }
+          'errorMessage': 'Internal Server Error. Please try again later.',
+        },
       ]);
       handler.next(err);
       return;

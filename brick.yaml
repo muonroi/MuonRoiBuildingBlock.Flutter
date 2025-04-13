@@ -10,8 +10,12 @@ vars:
   app_name:
     type: string
     description: "Your app widget name"
-    default: RemindEveryDay
+    default: MuonroiBuildingBlock
   app_title:
     type: string
     description: "App title displayed on AppBar"
-    default: "Remind Every Day"
+    default: "Muonroi Building Block"
+  project_description:
+    type: string
+    description: "Project description"
+    default: "A new Flutter project created with base MuonroiBuildingBlock.Flutter."
