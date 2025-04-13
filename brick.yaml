@@ -1,4 +1,4 @@
-name: { { project_name } }
+name: muonroi_buildingblock
 description: A new Flutter project created with base MuonroiBuildingBlock.Flutter.
 vars:
   project_name:
