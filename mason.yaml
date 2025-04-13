@@ -1,5 +1,5 @@
 bricks:
   muonroi_buildingblock:
     git:
-      url: https://github.com/muonroi/MuonRoiBuildingBlock.Flutter.git
+      url: https://github.com/muonroi/MuonRoiBuildingBlock.Flutter/tree/master/
       path: __brick__
