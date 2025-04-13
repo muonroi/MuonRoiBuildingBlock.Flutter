@@ -15,5 +15,3 @@ vars:
     type: string
     description: "App title displayed on AppBar"
     default: "Remind Every Day"
-
-exclude_extension: .mustache
