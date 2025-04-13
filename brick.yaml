@@ -14,4 +14,72 @@ vars:
     default: "Remind Every Day"
 publish_to: "none"
 version: 0.0.1
-exclude_extension: .mustache
+targets:
+  lib/config/http_client.dart.mustache:
+    path: lib/config/http_client.dart
+  lib/config/router.dart.mustache:
+    path: lib/config/router.dart
+  lib/config/theme.dart.mustache:
+    path: lib/config/theme.dart
+  lib/core/base_api_client.dart.mustache:
+    path: lib/core/base_api_client.dart
+  lib/core/base_service.dart.mustache:
+    path: lib/core/base_service.dart
+  lib/core/intercepters/auth.dart.mustache:
+    path: lib/core/intercepters/auth.dart
+  lib/core/models/mresponse.dart.mustache:
+    path: lib/core/models/mresponse.dart
+  lib/core/providers/error_dialog_provider.dart.mustache:
+    path: lib/core/providers/error_dialog_provider.dart
+  lib/core/storages/hive_storage.dart.mustache:
+    path: lib/core/storages/hive_storage.dart
+  lib/core/storages/token.dart.mustache:
+    path: lib/core/storages/token.dart
+  lib/core/token_storage.dart.mustache:
+    path: lib/core/token_storage.dart
+  lib/core/utils/error_handler.dart.mustache:
+    path: lib/core/utils/error_handler.dart
+  lib/core/widgets/error_dialog_widget.dart.mustache:
+    path: lib/core/widgets/error_dialog_widget.dart
+  lib/features/auth/data/datasources/auth_local_data_source.dart.mustache:
+    path: lib/features/auth/data/datasources/auth_local_data_source.dart
+  lib/features/auth/data/datasources/auth_remote_data_source.dart.mustache:
+    path: lib/features/auth/data/datasources/auth_remote_data_source.dart
+  lib/features/auth/data/models/user_model.dart.mustache:
+    path: lib/features/auth/data/models/user_model.dart
+  lib/features/auth/data/models/user_model.g.dart.mustache:
+    path: lib/features/auth/data/models/user_model.g.dart
+  lib/features/auth/data/repositories/auth_repository_impl.dart.mustache:
+    path: lib/features/auth/data/repositories/auth_repository_impl.dart
+  lib/features/auth/domain/entities/user.dart.mustache:
+    path: lib/features/auth/domain/entities/user.dart
+  lib/features/auth/domain/repositories/auth_repository.dart.mustache:
+    path: lib/features/auth/domain/repositories/auth_repository.dart
+  lib/features/auth/domain/usecases/get_cached_user_usecase.dart.mustache:
+    path: lib/features/auth/domain/usecases/get_cached_user_usecase.dart
+  lib/features/auth/domain/usecases/login_usecase.dart.mustache:
+    path: lib/features/auth/domain/usecases/login_usecase.dart
+  lib/features/auth/domain/usecases/logout_usecase.dart.mustache:
+    path: lib/features/auth/domain/usecases/logout_usecase.dart
+  lib/features/auth/domain/usecases/refresh_token_usecase.dart.mustache:
+    path: lib/features/auth/domain/usecases/refresh_token_usecase.dart
+  lib/features/auth/presentation/bloc/auth_bloc.dart.mustache:
+    path: lib/features/auth/presentation/bloc/auth_bloc.dart
+  lib/features/auth/presentation/bloc/auth_event.dart.mustache:
+    path: lib/features/auth/presentation/bloc/auth_event.dart
+  lib/features/auth/presentation/bloc/auth_state.dart.mustache:
+    path: lib/features/auth/presentation/bloc/auth_state.dart
+  lib/features/auth/presentation/login_screen.dart.mustache:
+    path: lib/features/auth/presentation/login_screen.dart
+  lib/features/auth/presentation/pages/login_page.dart.mustache:
+    path: lib/features/auth/presentation/pages/login_page.dart
+  lib/features/auth/presentation/register_screen.dart.mustache:
+    path: lib/features/auth/presentation/register_screen.dart
+  lib/features/auth/presentation/widgets/login_form.dart.mustache:
+    path: lib/features/auth/presentation/widgets/login_form.dart
+  lib/features/home/presentation/home.dart.mustache:
+    path: lib/features/home/presentation/home.dart
+  lib/main.dart.mustache:
+    path: lib/main.dart
+  pubspec.yaml.mustache:
+    path: pubspec.yaml

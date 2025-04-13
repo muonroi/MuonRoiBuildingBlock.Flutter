@@ -3,8 +3,12 @@
         "buildingblock",
         "fluttertoast",
         "intercepters",
+        "mresponse",
         "Muonroi",
         "nunito",
-        "riverpod"
+        "pubspec",
+        "riverpod",
+        "usecase",
+        "usecases"
     ]
 }
