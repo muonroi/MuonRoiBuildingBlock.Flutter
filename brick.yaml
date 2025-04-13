@@ -11,7 +11,7 @@ vars:
   app_title:
     type: string
     description: "App title displayed on AppBar"
-    default: "Muonroi BuildingBlock
+    default: "Muonroi BuildingBlock"
 publish_to: "none"
 version: 0.0.1
 
