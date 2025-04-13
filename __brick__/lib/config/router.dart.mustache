@@ -8,7 +8,10 @@ class RouteName {
   static const String login = '/login';
   static const String register = '/register';
 
-  static const unAuthorized = [login, register];
+  static const unAuthorized = [
+    login,
+    register,
+  ];
 }
 
 final router = GoRouter(
@@ -19,6 +22,10 @@ final router = GoRouter(
     return RouteName.login;
   },
   routes: [
+    GoRoute(
+      path: RouteName.home,
+      builder: (context, state) => const HomeScreen(),
+    ),
     GoRoute(
       path: RouteName.login,
       builder: (context, state) => const LoginScreen(),

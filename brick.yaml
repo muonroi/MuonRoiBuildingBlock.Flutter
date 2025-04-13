@@ -7,10 +7,10 @@ vars:
   app_name:
     type: string
     description: "Your app widget name"
-    default: MuonroiBuildingBlock
+    default: RemindEveryDay
   app_title:
     type: string
     description: "App title displayed on AppBar"
-    default: "Muonroi BuildingBlock"
+    default: "Remind Every Day"
 publish_to: "none"
 version: 0.0.1
