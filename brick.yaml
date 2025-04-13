@@ -14,3 +14,4 @@ vars:
     default: "Remind Every Day"
 publish_to: "none"
 version: 0.0.1
+exclude_extension: .mustache
